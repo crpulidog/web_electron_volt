@@ -2,14 +2,14 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 //import './App.css'
-import { Header } from './assets/components/Header'
+import { Header, Hero, } from './assets/components'
 
 function App() {
 //  const [count, setCount] = useState(0)
 
   return (
-    <main className='border border-White w-[375px] m-auto'>
-      <section className='bg-gray-500 p-6 h-[420px] relative'>
+    <main className='w-[375px] m-auto'>
+      <section className='bg-Navy-850 p-6 h-[420px] relative'>
         <Header />
         
         <img 
@@ -24,6 +24,11 @@ function App() {
           alt="bg curvy mobile" 
         />
       </section>
+
+      <section className='bg-Navy-900 p-6'>
+        <Hero />
+      </section>
+
     </main>
   )
 }
