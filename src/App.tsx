@@ -2,13 +2,13 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 //import './App.css'
-import { Header, Hero, } from './assets/components'
+import { Header, Hero, Features, } from './assets/components'
 
 function App() {
 //  const [count, setCount] = useState(0)
 
   return (
-    <main className='w-[375px] m-auto'>
+    <main className='w-93.75 m-auto'>
       <section className='bg-Navy-850 p-6 h-[420px] relative'>
         <Header />
         
@@ -27,6 +27,7 @@ function App() {
 
       <section className='bg-Navy-900 p-6'>
         <Hero />
+        <Features />
       </section>
 
     </main>
